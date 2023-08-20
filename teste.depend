@@ -1,6 +1,12 @@
 # depslib dependency file v1.0
-1692497727 source:d:\gitreps\fazendeiros-e-aligenigenas\main.c
+1692504175 source:d:\gitreps\fazendeiros-e-aligenigenas\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	"celeiro.h"
+	"pontuacao.h"
+
+1692495590 d:\gitreps\fazendeiros-e-aligenigenas\celeiro.h
+
+1692504206 d:\gitreps\fazendeiros-e-aligenigenas\pontuacao.h
 
