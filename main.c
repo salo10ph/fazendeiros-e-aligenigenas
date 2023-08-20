@@ -3,6 +3,7 @@
 #include <time.h>
 #include "celeiro.h"
 #include "pontuacao.h"
+#include "nave.h"
 
 char letra1 = '1';
 int main()
@@ -38,7 +39,8 @@ int main()
                     removePontos();
                     break;
                 case '4':
-                    printf("\nAndando para esquerda\n\n");
+                    printf("\nAleatorizar animal\n\n");
+                    aleatorizarAnimal();
                     break;
                 case '5':
                     printf("\nAndando para esquerda\n\n");
@@ -59,11 +61,11 @@ int main()
                     printf("\nComando invallido!!!\n\n");
                     break;
             }
-            printf("\n%d\n\n", retornaPontuacao());
+            printf("\n%d - %s\n\n", retornaPontuacao(), retornaAnimalDaVez());
             while (_kbhit()) _getch();
         }
         else{
-            printf("Pontos: %d --- Nada inserido!!!\n", retornaPontuacao());
+            printf("Pontos: %d - %s--- Nada inserido!!!\n", retornaPontuacao(), retornaAnimalDaVez());
             usleep(500000);
         }
     } while (letra1 != '0');
