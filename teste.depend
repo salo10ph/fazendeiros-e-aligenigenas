@@ -1,18 +1,27 @@
 # depslib dependency file v1.0
-1692511033 source:d:\gitreps\fazendeiros-e-aligenigenas\main.c
+1692578641 source:d:\gitreps\fazendeiros-e-aligenigenas\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"celeiro.h"
 	"pontuacao.h"
 	"nave.h"
+	"jogador.h"
+	"cercado.h"
 
-1692495590 d:\gitreps\fazendeiros-e-aligenigenas\celeiro.h
-
-1692504206 d:\gitreps\fazendeiros-e-aligenigenas\pontuacao.h
-
-1692512445 d:\gitreps\fazendeiros-e-aligenigenas\nave.h
+1692545800 d:\gitreps\fazendeiros-e-aligenigenas\celeiro.h
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
+
+1692504206 d:\gitreps\fazendeiros-e-aligenigenas\pontuacao.h
+
+1692549407 d:\gitreps\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1692547700 d:\gitreps\fazendeiros-e-aligenigenas\jogador.h
+
+1692579844 d:\gitreps\fazendeiros-e-aligenigenas\cercado.h
 

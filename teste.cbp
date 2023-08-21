@@ -33,6 +33,7 @@
 		</Compiler>
 		<Unit filename="celeiro.h" />
 		<Unit filename="cercado.h" />
+		<Unit filename="jogador.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
