@@ -1,3 +1,5 @@
+#define TAMANHO_MAXIMO 3
+
 typedef struct no {
     char valor;
     struct no * proximo;
@@ -11,10 +13,13 @@ typedef struct {
 Pilha;
 
 void empilhar(Pilha * p, char x) {
-    No * no = malloc(sizeof(No));
-    no -> valor = x;
-    no -> proximo = p -> topo;
-    p -> topo = no;
+    if(p -> tamanho < TAMANHO_MAXIMO){
+        No * no = malloc(sizeof(No));
+        no -> valor = x;
+        no -> proximo = p -> topo;
+        p -> topo = no;
+        p -> tamanho++;
+    }
 }
 
 No * desempilhar(Pilha * p, char * a) {
@@ -51,6 +56,7 @@ void imprimir(No * no) {
     int op, valor;
     No * no;
     Pilha p;
+    Pilha p2;
 
 int main2() {
     do {

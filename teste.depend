@@ -25,3 +25,29 @@
 
 1692579844 d:\gitreps\fazendeiros-e-aligenigenas\cercado.h
 
+1692745526 source:c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"pontuacao.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+
+1692742250 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1692742250 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\pontuacao.h
+
+1692742250 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1692742250 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\jogador.h
+
+1692747492 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\cercado.h
+
