@@ -3,6 +3,7 @@
 #include <conio.h>
 //#include "pontuacao.h"
 
+double tempo_extra = 0;
 char animais2[4] = {'V', 'P', 'C', 'O'};
 char animalDaVez = 'Z';
 
@@ -33,8 +34,14 @@ char* retornaAnimalDaVez(){
 
 void entregarAnimal(char animalEntregue){
     if(animalEntregue != 'N') {
-        if(animalEntregue == animalDaVez) adicionaPontos();
-        else removePontos();
+        if(animalEntregue == animalDaVez) {
+                adicionaPontos();
+                tempo_extra = 10;
+        }
+        else {
+                removePontos();
+                tempo_extra = 0;
+        }
         aleatorizarAnimal();
     }
 }

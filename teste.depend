@@ -51,3 +51,71 @@
 
 1692747492 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\cercado.h
 
+1693009093 source:c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"pontuacao.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693003912 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693008913 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\pontuacao.h
+
+1693008739 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693003756 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\jogador.h
+
+1693004105 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\cercado.h
+
+1693003244 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693011030 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\mapa.h
+
+1693082879 source:c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"pontuacao.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693003914 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693008914 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\pontuacao.h
+
+1693008740 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693003758 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\jogador.h
+
+1693004106 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\cercado.h
+
+1693082687 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693083083 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\mapa.h
+

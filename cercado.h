@@ -28,6 +28,7 @@ No * desempilhar(Pilha * p, char * a) {
         no = p -> topo;
         *a = no -> valor;
         p -> topo = no -> proximo;
+        p -> tamanho--;
     }
     return no;
 }
@@ -57,35 +58,3 @@ void imprimir(No * no) {
     No * no;
     Pilha p;
     Pilha p2;
-
-int main2() {
-    do {
-        printf("\n0-Sair\n1-Empilhar\n2-Desempilhar\n3-Imprimir\n");
-        scanf("%d", & op);
-        switch (op) {
-        case 0:
-            printf("Saindo...\n");
-            break;
-        case 1:
-            printf("Valor a ser empilhado:");
-            scanf("%d", & valor);
-            empilhar( & p, valor);
-            break;
-        case 2:
-            //no = desempilhar( & p, char);
-            if (no) {
-                printf("\tDesempilhando: %d\n", no -> valor);
-            }
-            break;
-        case 3:
-            printf("\n-------- PILHA --------\n");
-            imprimir(p.topo);
-            printf("\n-------- PILHA --------");
-            break;
-        default:
-            printf("Opcao invalida\n");
-        }
-    } while (op != 0);
-    return 0;
-
-}

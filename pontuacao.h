@@ -11,7 +11,7 @@ void adicionaPontosBonus(){
 }
 
 void removePontos(){
-    pontuacao -= PONTOS;
+    pontuacao -= PONTOS * 2;
 }
 
 int retornaPontuacao(){
