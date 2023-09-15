@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include "celeiro.h"
-#include "pontuacao.h"
 #include "nave.h"
 #include "jogador.h"
 #include "cercado.h"
@@ -21,19 +20,19 @@ int main()
     do{
         fflush(stdin);
         system("cls");
+        printf("\n\n");
+        printf("\t\t----------------------------------------------------------\n\t\t   |  ");
         imprimeTempo();
-        printf("\n Pontuacao: %d \n Animal que a nave quer: %s \n Animal no Celeiro: %s \n Animal Carregado: %s\n\n", retornaPontuacao(), retornaAnimalDaVez(), retornaAnimalDaVezCeleiro(), retornaAnimalCarregado());
+        mapearPilha(p.topo, p.tamanho, 0);
+        mapearPilha(p2.topo, p2.tamanho, 1);
+        retornaAnimalDaVezCeleiro();
+        retornaAnimalDaVez();
+        printf("\t|\tPontuacao: %d  |   \n", retornaPontuacao());
+        printf("\t\t----------------------------------------------------------\n");
+        printarMapa(animalDaVez, array1[0][2], array1[0][1], array1[0][0], array1[1][2], array1[1][1], array1[1][0], animalDaVezCeleiro);
+        printf("--------------------------------\n |  Animal Carregado: %s |\n--------------------------------\n\n", retornaAnimalCarregado());
+        printf("\nDigite um dos seguntes comandos: \nWASD: Andar \n");
 
-            printf("\n-------- PILHA 1: %d --------\n", p.tamanho);
-            imprimir(p.topo);
-            printf("\n-------- PILHA 1: %d --------\n", p.tamanho);
-
-            printf("\n\n-------- PILHA 2: %d --------\n", p2.tamanho);
-            imprimir(p2.topo);
-            printf("\n-------- PILHA 2: %d --------\n", p2.tamanho);
-        printf("---\n\nDigite um dos seguntes comandos: \nWASD: Andar \n\n---\n\n");
-
-        printarMapa();
         if (kbhit()){
             letra1 = _getch();
             switch(letra1){
@@ -43,39 +42,31 @@ int main()
                 case 'a':
                     switch(movimentar(letra1)){
                         case 2:
-                            printf("\nEntregando animal para a nave\n\n");
                             entregarAnimal(animalCarregado);
                             animalCarregado = 'N';
                             tempo_atual += tempo_extra;
                             break;
                         case 3:
-                            printf("\nTentando pegar animal do celeiro\n\n");
                             pegarAnimalDoCeleiro();
                             break;
                         case 4:
                             if(animalCarregado != 'N'){
-                                printf("\nTentando Empilhar animal no cercado 1\n\n");
-                                empilhar( & p, animalCarregado);
-                                animalCarregado = 'N';
+                                animalCarregado = empilhar( & p, animalCarregado);
                             }
                             else {
-                                printf("\nTentando pegar animal do topo da pilha 1\n\n");
 
                                 if(animalCarregado == 'N') {
-                                    desempilhar( & p, &animalCarregado);
+                                    desempilhar( & p, &animalCarregado, 0);
                                 }
                             }
                             break;
                         case 5:
                             if(animalCarregado != 'N'){
-                                printf("\nTentando Empilhar animal no cercado 2\n\n");
-                                empilhar( & p2, animalCarregado);
-                                animalCarregado = 'N';
+                                animalCarregado = empilhar( & p2, animalCarregado);
                             }
                             else {
-                                printf("\nTentando pegar animal do topo da pilha 1\n\n");
                                 if(animalCarregado == 'N') {
-                                    desempilhar( & p2, &animalCarregado);
+                                    desempilhar( & p2, &animalCarregado, 1);
                                 }
                             }
                             break;
@@ -86,9 +77,6 @@ int main()
                     break;
             }
             while (_kbhit()) _getch();
-        }
-        else{
-            printf("Nada inserido!!!\n");
         }
             usleep(60000);
     } while (tempo_atual > 0);

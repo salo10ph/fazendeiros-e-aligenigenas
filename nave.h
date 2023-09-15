@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
-//#include "pontuacao.h"
+#include "pontuacao.h"
 
 double tempo_extra = 0;
 char animais2[4] = {'V', 'P', 'C', 'O'};
-char animalDaVez = 'Z';
+char animalDaVez  = 'Z';
 
 void aleatorizarAnimal(){
     int numero = rand() % 4;

@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="teste" />
+		<Option title="Capture-All-Animals" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -39,7 +39,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="mapa.h" />
-		<Unit filename="movimentacao.h" />
 		<Unit filename="nave.h" />
 		<Unit filename="pontuacao.h" />
 		<Extensions>

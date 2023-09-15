@@ -51,39 +51,39 @@
 
 1692747492 c:\users\0040962213016\documents\fazendeiros-e-aligenigenas\cercado.h
 
-1693009093 source:c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\main.c
+1693444269 source:c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"celeiro.h"
-	"pontuacao.h"
 	"nave.h"
 	"jogador.h"
 	"cercado.h"
 	"Temporizador.h"
 	"mapa.h"
 
-1693003912 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\celeiro.h
+1693347847 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\celeiro.h
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 
-1693008913 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\pontuacao.h
+1693347847 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\pontuacao.h
 
-1693008739 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\nave.h
+1693351438 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\nave.h
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
+	"pontuacao.h"
 
-1693003756 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\jogador.h
+1693347847 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\jogador.h
 
-1693004105 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\cercado.h
+1693444300 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\cercado.h
 
-1693003244 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\temporizador.h
+1693361656 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\temporizador.h
 	<stdio.h>
 	<time.h>
 
-1693011030 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\mapa.h
+1693368102 c:\users\0040962213021\documents\fazendeiros-e-aligenigenas\mapa.h
 
 1693082879 source:c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\main.c
 	<stdio.h>
@@ -118,4 +118,250 @@
 	<time.h>
 
 1693083083 c:\users\micro\onedrive\documentos\temporario\fazendeiros-e-aligenigenas\mapa.h
+
+1693444269 source:c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347847 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693347847 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\pontuacao.h
+
+1693351438 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347847 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\jogador.h
+
+1693444300 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\cercado.h
+
+1693361656 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693368102 c:\users\0040962213021\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\mapa.h
+
+1693365590 source:c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347847 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693351438 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347847 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\pontuacao.h
+
+1693347847 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\jogador.h
+
+1693347847 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\cercado.h
+
+1693361656 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693368102 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\mapa.h
+
+1693361587 c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\temporizador.c
+	<stdio.h>
+	<time.h>
+
+1693361587 source:c:\users\micro\downloads\fazendeiros-e-aligenigenas\fazendeiros-e-aligenigenas\temporizador.c
+	<stdio.h>
+	<time.h>
+
+1693456364 source:c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693351438 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\pontuacao.h
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\jogador.h
+
+1693452764 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\cercado.h
+
+1693456478 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693455041 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\fazendeiros-e-aligenigenas\mapa.h
+
+1693456594 source:c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693351438 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\pontuacao.h
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\jogador.h
+
+1693452764 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\cercado.h
+
+1693456478 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693455041 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\fazendeiros-e-aligenigenas\mapa.h
+
+1693458393 source:c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693351438 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\pontuacao.h
+
+1693347847 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\jogador.h
+
+1693458621 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\cercado.h
+
+1693458256 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693458249 c:\users\micro\onedrive\documentos\vercoes finais do joguinho de prog avavncada\dia 30\vercao-final\capture-all-animals\mapa.h
+
+1693458394 source:f:\capture-all-animals\capture-all-animals\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347848 f:\capture-all-animals\capture-all-animals\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693351440 f:\capture-all-animals\capture-all-animals\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347848 f:\capture-all-animals\capture-all-animals\pontuacao.h
+
+1693347848 f:\capture-all-animals\capture-all-animals\jogador.h
+
+1693458622 f:\capture-all-animals\capture-all-animals\cercado.h
+
+1693458258 f:\capture-all-animals\capture-all-animals\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693458250 f:\capture-all-animals\capture-all-animals\mapa.h
+
+1693458394 source:d:\capture-all-animals\capture-all-animals\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"celeiro.h"
+	"nave.h"
+	"jogador.h"
+	"cercado.h"
+	"Temporizador.h"
+	"mapa.h"
+
+1693347848 d:\capture-all-animals\capture-all-animals\celeiro.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1693351440 d:\capture-all-animals\capture-all-animals\nave.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pontuacao.h"
+
+1693347848 d:\capture-all-animals\capture-all-animals\pontuacao.h
+
+1693347848 d:\capture-all-animals\capture-all-animals\jogador.h
+
+1693458622 d:\capture-all-animals\capture-all-animals\cercado.h
+
+1693458258 d:\capture-all-animals\capture-all-animals\temporizador.h
+	<stdio.h>
+	<time.h>
+
+1693458250 d:\capture-all-animals\capture-all-animals\mapa.h
 

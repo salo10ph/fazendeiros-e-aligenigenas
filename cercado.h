@@ -1,4 +1,5 @@
 #define TAMANHO_MAXIMO 3
+char array1[2][3] = {'N', 'N', 'N', 'N', 'N', 'N'};
 
 typedef struct no {
     char valor;
@@ -12,45 +13,35 @@ typedef struct {
 }
 Pilha;
 
-void empilhar(Pilha * p, char x) {
+char empilhar(Pilha * p, char x) {
     if(p -> tamanho < TAMANHO_MAXIMO){
         No * no = malloc(sizeof(No));
         no -> valor = x;
         no -> proximo = p -> topo;
         p -> topo = no;
         p -> tamanho++;
+        return 'N';
     }
+    return x;
 }
 
-No * desempilhar(Pilha * p, char * a) {
+No * desempilhar(Pilha * p, char * a, int cercado) {
     No * no = NULL;
     if (p -> topo) {
         no = p -> topo;
         *a = no -> valor;
         p -> topo = no -> proximo;
         p -> tamanho--;
+        array1[cercado][p -> tamanho] = 'N';
     }
     return no;
 }
 
-void imprimir(No * no) {
-    if (no) {
-        switch (no -> valor){
-            case 'V':
-                printf("Vaca \n");
-                break;
-            case 'P':
-                printf("Porco \n");
-                break;
-            case 'C':
-                printf("Cavalo \n");
-                break;
-            case 'O':
-                printf("Ovelha \n");
-                break;
-    }
-        imprimir(no -> proximo);
-
+char* mapearPilha(No * no, int local, int cercado){
+        local--;
+    if(no) {
+        array1[cercado][local] = no -> valor;
+        mapearPilha(no -> proximo, local, cercado);
     }
 }
 
